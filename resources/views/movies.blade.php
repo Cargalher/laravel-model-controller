@@ -1,8 +1,10 @@
 @extends('layout.app')
 
-@section('title', 'Home Page')
+@section('title', 'Movies Page')
+
+
+<h1>Movies Page</h1>
 
 @section('content')
 
-<h1>HomePage</h1>
 @endsection
