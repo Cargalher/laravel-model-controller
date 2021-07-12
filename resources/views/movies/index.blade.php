@@ -7,7 +7,7 @@
 
 @section('content')
 
-@endsection
+
 
 
 <div class="movies">
@@ -26,3 +26,4 @@
     
    
 </div>
+@endsection
