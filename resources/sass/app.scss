@@ -1,3 +1,13 @@
-.movie{
-    border:1px solid blue;
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    .movie{
+        border: 1px solid blue;
+        width: calc(100% / 5 - 40px);
+        margin: 5px;
+        padding: 11px;
+}
+
 }
