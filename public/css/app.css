@@ -1,14 +1,43 @@
-.movies {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+#site_header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+#site_header a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+#site_main {
+  background-image: url("../img/cinema.jpg");
+  background-size: cover;
+}
+#site_main .background_cinema {
+  background-image: url("../img/cinema.jpg");
+  background-size: cover;
+}
+#site_main .movies {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
 }
-
-.movies .movie {
-  border: 1px solid blue;
+#site_main .movies .movie {
+  border: 1px solid bisque;
+  background-color: beige;
   width: calc(100% / 5 - 40px);
   margin: 5px;
   padding: 11px;
 }
-

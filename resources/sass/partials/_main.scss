@@ -1,0 +1,24 @@
+// Main
+#site_main{
+    background-image: url('../img/cinema.jpg');
+    background-size: cover;
+    .background_cinema{
+        background-image: url('../img/cinema.jpg');
+    background-size: cover;
+
+    }
+    .movies{
+        
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+        .movie{
+            border: 1px solid bisque;
+            background-color: beige;
+            width: calc(100% / 5 - 40px);
+            margin: 5px;
+            padding: 11px;
+        }
+    }
+}

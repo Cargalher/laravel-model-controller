@@ -3,7 +3,7 @@
 @section('title', 'Movies Page')
 
 
-<h1>Movies Page</h1>
+<!-- <h1>Movies Page</h1> -->
 
 @section('content')
 
