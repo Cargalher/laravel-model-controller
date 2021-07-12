@@ -13,7 +13,13 @@ class PageController extends Controller
     }
     public function movies()
     {
-         ddd(Movie::all());
+        $movies = (Movie::all());
+
+        foreach($movies as $movie){
+            echo $movie->title . '<br>';
+        }
+
+
         return view('movies');
     }
 }
