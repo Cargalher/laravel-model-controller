@@ -15,11 +15,11 @@ class PageController extends Controller
     {
         $movies = (Movie::all());
 
-        foreach($movies as $movie){
-            echo $movie->title . '<br>';
-        }
-
-
-        return view('movies');
+        return view('movies.index', compact('movies'));
     }
 }
+
+
+// foreach($movies as $movie){
+//     echo $movie->title . '<br>';
+// }
