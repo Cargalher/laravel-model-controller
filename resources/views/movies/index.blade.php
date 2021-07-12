@@ -15,7 +15,11 @@
         @foreach($movies as $movie)
         <div class="movie">
 
-            {{$movie['title']}}
+            <h2>{{$movie['title']}}</h2>
+            <h5><strong>Original Title: </strong> {{$movie['original_title']}}</h5>
+            <span> <strong>Country: </strong> {{$movie['nationality']}}</span>
+            <span><strong>Date: </strong>{{$movie['date']}}</span>
+            <span><strong>Vote: </strong> {{$movie['vote']}}</span>
 
         </div>
         @endforeach
