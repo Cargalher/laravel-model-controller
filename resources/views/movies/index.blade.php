@@ -15,8 +15,8 @@
         @foreach($movies as $movie)
         <div class="movie">
 
-            {{$movie[$movie->title]}}
-            
+            {{$movie['title']}}
+
         </div>
         @endforeach
     
